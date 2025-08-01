@@ -388,3 +388,27 @@ footer p {
 
 
 
+.intro {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+  gap: 40px;
+}
+
+.texto-esquerda,
+.texto-direita {
+  width: 50%;
+}
+
+.bem-vindo {
+  color: #d6006d;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.destaque {
+  color: #d6006d;
+}
